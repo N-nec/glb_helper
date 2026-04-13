@@ -1,6 +1,6 @@
 So.. Blender exports as GLB... Mobs_Redo cant process the animations. so now anything defined as a mob with a GLB file plays its animations cleanly.
 
-1 Create Mob
+1 Create Mob, 
 2 Define the mob under the Mobs Api
 
   mobs:register_mob("MyMod:Enemy", {
