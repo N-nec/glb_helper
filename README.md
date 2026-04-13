@@ -7,7 +7,7 @@ So.. Blender exports as GLB... Mobs_Redo cant process the animations. so now any
   ......
   Visuals...
         visual = "mesh",
-        mesh = "zombie_torso.glb",   <----- instead of a B3D file, Place your GLB one 
+        mesh = "zombie_torso.glb",  
         textures = {"zombie_texture.png"},
         .....       
 Then Animation....
@@ -16,7 +16,7 @@ Then Animation....
             speed_run = 20,
             stand_start = 0,
             stand_end = 0,
-            walk_start = 24,         <------- Standard Animation Defintion 
+            walk_start = 24,        n 
             walk_end = 58,
             run_start = 24,
             run_end = 58,
