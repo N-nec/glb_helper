@@ -1,0 +1,7 @@
+# glb_helper settings
+
+# Default source/export FPS for glTF animations (used when converting Blender frames -> seconds)
+glb_helper_default_source_fps (glb_helper: Default glTF source FPS) int 24 1 240
+
+# Auto-patch mobs_redo so frame-based animation defs work with .glb/.gltf meshes
+glb_helper_patch_mobs (glb_helper: Patch mobs_redo animations) bool true
